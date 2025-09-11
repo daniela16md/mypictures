@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Photo Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .photo-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 220px;
+    }
+
+    .photo-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .description {
+      padding: 10px;
+      font-size: 14px;
+      color: #555;
+    }
+    footer {
+      background-color: #e9ecef;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #555;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>🐶 Daisy</h1>
+  <div class="gallery">
+    <div class="photo-card">
+      <img src="images/photo1.png" alt="Photo 1">
+      <div class="description">Recovering after surgery</div>
+    </div>
+    <div class="photo-card">
+      <img src="images/photo2.jpg" alt="Photo 2">
+      <div class="description">Daisy's first haircut after my daughter and i welcome her</div>
+    </div>
+    <div class="photo-card">
+      <img src="images/photo3.jpeg" alt="Photo 3">
+      <div class="description">Enjoying the river, sand all over, but a good shower after  </div>
+    </div>
+    <!-- Add more photo cards as needed -->
+  </div>
+  <h1>Milano</h1>
+  <div class="gallery">
+    <div class="photo-card">
+      <img src="images/photo4.jpeg" alt="Photo 4">
+      <div class="description">Milan Cathedral</div>
+    </div>
+    <div class="photo-card">
+      <img src="images/photo5.jpg" alt="Photo 5">
+      <div class="description">crazy cat cafe</div>
+    </div>
+    <div class="photo-card">
+      <img src="images/photo6.jpg" alt="Photo 6">
+      <div class="description">San Siro Stadium </div>
+    </div>
+    <div class="photo-card">
+      <img src="images/photo7.jpg" alt="Photo 7">
+      <div class="description">Replica of the last supper</div>
+    </div>
+    <div class="photo-card">
+      <img src="images/photo8.jpg" alt="Photo 8">
+      <div class="description">Enrico Tito Submarine, Science and technology museum </div>
+    </div>
+   
+    <div class="photo-card">
+      <img src="images/photo9.jpg" alt="Photo 9">
+      <div class="description">Sforza Castle, but was closed</div>
+    </div>
+    <div class="photo-card">
+      <img src="images/photo10.jpg" alt="Photo 10">
+      <div class="description">Ocean liner Conte Biancamano, Science and technology museum </div>
+    </div>
+    <div class="photo-card">
+      <img src="images/photo11.jpg" alt="Photo 11">
+      <div class="description">the ballroom from the cruise ship </div>
+    </div>
+    <div class="photo-card">
+      <img src="images/photo12.jpg" alt="Photo 12">
+      <div class="description"> Arch of peace Milan</div>
+    </div>
+  
+    <!-- Add more photo cards as needed -->
+  </div>
+  <footer>
+    <p>This website is for personal use only and showcases pictures of my dog 🐾 and my trip to Milano</p>
+    <p>Hosted on <strong>Vercel</strong> | &copy; Daniela</p>
+  </footer>
+</body>
+</html>
