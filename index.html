@@ -52,170 +52,199 @@
       color: #555;
       border-top: 1px solid #ccc;
     }
+    button {
+      margin-top: 10px;
+      padding: 8px 12px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .mygallery {
+      display: none;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
-  <h1>🐶 Daisy</h1>
-  <div class="gallery">
-    <div class="photo-card">
-      <img src="images/photo1.png" alt="Photo 1">
-      <div class="description">Recovering after surgery</div>
+  <p>Hi bestie, I’ve been having internet issues with Bakery Story and Restaurant Story since this morning. 
+    <br> I even updated both apps and upgraded my iOS,
+    <br> I’ve had this issue once before with Bakery Story, 
+    <br> so I’m hoping it gets fixed soon and that u read this message 
+    <br> in case the games crash, we might lose contact, and that would be really sad. 🥺 
+    <br> hope that u r having a good day and a blessed time at church tonight </p>
+  <button id="togglePhotosBtn">📸 Show Photos</button>
+  <div class="mygallery" id="photoGallery">
+    <h1>🐶 Daisy</h1>
+    <div class="gallery">
+      <div class="photo-card">
+        <img src="images/photo1.png" alt="Photo 1">
+        <div class="description">Recovering after surgery</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo2.jpg" alt="Photo 2">
+        <div class="description">Daisy's first haircut after my daughter and i welcome her</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo3.jpeg" alt="Photo 3">
+        <div class="description">Enjoying the river, sand all over, but a good shower after  </div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo13.jpg" alt="Photo 13">
+        <div class="description"> feeling cozy</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo14.jpg" alt="Photo 14">
+        <div class="description"> cozy </div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo15.jpg" alt="Photo 15">
+        <div class="description"> her bday</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo32.jpg" alt="Photo 32">
+        <div class="description">Enjoying the snow</div>
+      </div>
+      <!-- Add more photo cards as needed -->
     </div>
-    <div class="photo-card">
-      <img src="images/photo2.jpg" alt="Photo 2">
-      <div class="description">Daisy's first haircut after my daughter and i welcome her</div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo3.jpeg" alt="Photo 3">
-      <div class="description">Enjoying the river, sand all over, but a good shower after  </div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo13.jpg" alt="Photo 13">
-      <div class="description"> feeling cozy</div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo14.jpg" alt="Photo 14">
-      <div class="description"> cozy </div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo15.jpg" alt="Photo 15">
-      <div class="description"> her bday</div>
-    </div>
-     <div class="photo-card">
-      <img src="images/photo32.jpg" alt="Photo 32">
-      <div class="description">Enjoying the snow</div>
-    </div>
-    <!-- Add more photo cards as needed -->
-  </div>
-  <h1>Milan</h1>
-  <div class="gallery">
-    <div class="photo-card">
-      <img src="images/photo33.jpg" alt="Photo 33">
-      <div class="description">Flying to Milan</div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo4.jpeg" alt="Photo 4">
-      <div class="description">Milan Cathedral</div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo5.jpg" alt="Photo 5">
-      <div class="description">crazy cat cafe</div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo6.jpg" alt="Photo 6">
-      <div class="description">San Siro Stadium </div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo7.jpg" alt="Photo 7">
-      <div class="description">Replica of the last supper</div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo8.jpg" alt="Photo 8">
-      <div class="description">Enrico Tito Submarine, Science and technology museum </div>
-    </div>
-   
-    <div class="photo-card">
-      <img src="images/photo9.jpg" alt="Photo 9">
-      <div class="description">Sforza Castle, but was closed</div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo10.jpg" alt="Photo 10">
-      <div class="description">Ocean liner Conte Biancamano, Science and technology museum </div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo11.jpg" alt="Photo 11">
-      <div class="description">the ballroom from the cruise ship </div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo12.jpg" alt="Photo 12">
-      <div class="description"> Arch of peace Milan</div>
-    </div>
+    <h1>Milan</h1>
+    <div class="gallery">
+      <div class="photo-card">
+        <img src="images/photo33.jpg" alt="Photo 33">
+        <div class="description">Flying to Milan</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo4.jpeg" alt="Photo 4">
+        <div class="description">Milan Cathedral</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo5.jpg" alt="Photo 5">
+        <div class="description">crazy cat cafe</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo6.jpg" alt="Photo 6">
+        <div class="description">San Siro Stadium </div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo7.jpg" alt="Photo 7">
+        <div class="description">Replica of the last supper</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo8.jpg" alt="Photo 8">
+        <div class="description">Enrico Tito Submarine, Science and technology museum </div>
+      </div>
     
+      <div class="photo-card">
+        <img src="images/photo9.jpg" alt="Photo 9">
+        <div class="description">Sforza Castle, but was closed</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo10.jpg" alt="Photo 10">
+        <div class="description">Ocean liner Conte Biancamano, Science and technology museum </div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo11.jpg" alt="Photo 11">
+        <div class="description">the ballroom from the cruise ship </div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo12.jpg" alt="Photo 12">
+        <div class="description"> Arch of peace Milan</div>
+      </div>
+    </div>
   
     <!-- Add more photo cards as needed -->
-  </div>
-  <h1>More pictures</h1>
-  <div class="gallery">
+  
+    <h1>More pictures</h1>
+    <div class="gallery">
+      
+      <div class="photo-card">
+        <img src="images/photo17.jpg" alt="Photo 17">
+        <div class="description">Sunrise in the center of city</div>
+      </div>
     
-    <div class="photo-card">
-      <img src="images/photo17.jpg" alt="Photo 17">
-      <div class="description">Sunrise in the center of city</div>
+      <div class="photo-card">
+        <img src="images/photo18.JPG" alt="Photo 18">
+        <div class="description">Bleu moon two years ago</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo24.jpg" alt="Photo 24">
+        <div class="description"> Sunrise </div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo34.jpg" alt="Photo 34">
+        <div class="description">Center of the city</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo35.jpg" alt="Photo 35">
+        <div class="description">Center of the city</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo36.jpg" alt="Photo 36">
+        <div class="description">City hall</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo19.jpg" alt="Photo 19">
+        <div class="description">Torture museum, Spain </div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo20.JPG" alt="Photo 20">
+        <div class="description">Sunset, Beach Arcachon, Bordeaux,  </div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo21.jpg" alt="Photo 21">
+        <div class="description"> Eiffel Tower</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo22.jpg" alt="Photo 22">
+        <div class="description"> Chamonix, Mont Blanc</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo23.jpg" alt="Photo 23">
+        <div class="description"> Chamonix, Mont Blanc, i have been on the top</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo37.jpg" alt="Photo 37">
+        <div class="description">Mont Blanc, sunrise</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo38.jpg" alt="Photo 38">
+        <div class="description">From the top of mont blanc</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo16.jpg" alt="Photo 16">
+        <div class="description">An pengouin that i made</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo26.jpg" alt="Photo 26">
+        <div class="description"> I made this one, Scrump from Stitch </div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo27.jpg" alt="Photo 27">
+        <div class="description"> Venice</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo28.jpg" alt="Photo 28">
+        <div class="description"> Flying with the ballon</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo29.jpg" alt="Photo 29">
+        <div class="description"> Notre Dame</div>
+      </div>
+      <div class="photo-card">
+        <img src="images/photo30.jpg" alt="Photo 30">
+        <div class="description"> London</div>
+      </div>
+    
     </div>
-   
-    <div class="photo-card">
-      <img src="images/photo18.JPG" alt="Photo 18">
-      <div class="description">Bleu moon two years ago</div>
-    </div>
-     <div class="photo-card">
-      <img src="images/photo24.jpg" alt="Photo 24">
-      <div class="description"> Sunrise </div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo34.jpg" alt="Photo 34">
-      <div class="description">Center of the city</div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo35.jpg" alt="Photo 35">
-      <div class="description">Center of the city</div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo36.jpg" alt="Photo 36">
-      <div class="description">City hall</div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo19.jpg" alt="Photo 19">
-      <div class="description">Torture museum, Spain </div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo20.JPG" alt="Photo 20">
-      <div class="description">Sunset, Beach Arcachon, Bordeaux,  </div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo21.jpg" alt="Photo 21">
-      <div class="description"> Eiffel Tower</div>
-    </div>
-     <div class="photo-card">
-      <img src="images/photo22.jpg" alt="Photo 22">
-      <div class="description"> Chamonix, Mont Blanc</div>
-    </div>
-     <div class="photo-card">
-      <img src="images/photo23.jpg" alt="Photo 23">
-      <div class="description"> Chamonix, Mont Blanc, i have been on the top</div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo37.jpg" alt="Photo 37">
-      <div class="description">Mont Blanc, sunrise</div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo38.jpg" alt="Photo 38">
-      <div class="description">From the top of mont blanc</div>
-    </div>
-    <div class="photo-card">
-      <img src="images/photo16.jpg" alt="Photo 16">
-      <div class="description">An pengouin that i made</div>
-    </div>
-     <div class="photo-card">
-      <img src="images/photo26.jpg" alt="Photo 26">
-      <div class="description"> I made this one, Scrump from Stitch </div>
-    </div>
-     <div class="photo-card">
-      <img src="images/photo27.jpg" alt="Photo 27">
-      <div class="description"> Venice</div>
-    </div>
-     <div class="photo-card">
-      <img src="images/photo28.jpg" alt="Photo 28">
-      <div class="description"> Flying with the ballon</div>
-    </div>
-     <div class="photo-card">
-      <img src="images/photo29.jpg" alt="Photo 29">
-      <div class="description"> Notre Dame</div>
-    </div>
-     <div class="photo-card">
-      <img src="images/photo30.jpg" alt="Photo 30">
-      <div class="description"> London</div>
-    </div>
-   
   </div>
+  <script>
+    const btn = document.getElementById('togglePhotosBtn');
+    const gallery = document.getElementById('photoGallery');
+
+    btn.addEventListener('click', () => {
+      const isVisible = gallery.style.display === 'block';
+      gallery.style.display = isVisible ? 'none' : 'block';
+      btn.textContent = isVisible ? '📸 Show Photos' : '📁 Hide Photos';
+    });
+  </script>
   <footer>
     <p>This website is for personal use only and showcases pictures of my dog 🐾 and my trip to Milano</p>
     <p>Hosted on <strong>Vercel</strong> | &copy; Daniela</p>
